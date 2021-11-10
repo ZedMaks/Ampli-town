@@ -126,7 +126,7 @@ body {
   
     margin-top: 10px;
 
-    padding: 2px;
+    padding: 10px;
   
     background-color: #FFC122;
   
@@ -139,6 +139,16 @@ body {
     margin-left: 250px;
 
     margin-right: 250px;
+
+    max-width: 1920px;
+
+    max-height: 100px;
+
+    display: -webkit-flex;
+
+    display: flex;
+
+    justify-content: space-between;
   
   }
   
@@ -149,7 +159,31 @@ body {
     color: #F0FFFF;
   
     font-size: 20px;
+
+    margin: 0 auto;
+
+    
   
   }
-  
+  .url__github
+  {
+    text-decoration: none;
+
+    font-size: 20px;
+
+    color: #000;
+
+    margin: 0 auto;
+  }
+
+  .url__thirdpage
+  {
+    text-decoration: none;
+
+    font-size: 20px;
+
+    color: #000;
+
+    margin: 0 auto;
+  }
   /* end footer styling */
