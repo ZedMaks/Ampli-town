@@ -1,0 +1,68 @@
+body {
+
+    margin: 0; /* eliminates margin spacing on body so that the footer color is able to fill the window */
+  
+    /* Sets the background for the entire page to a light yellow color */
+  
+    background-color: #FAF8DA;
+  
+    font-family: 'Open Sans', sans-serif; /* Font from Google Fonts */
+  
+  }
+  .text__name{
+    color: #205D76;
+  
+    font-size: 40px;
+  }
+
+  img{
+    width: 300px;
+  }
+
+  .primary__section{
+      display: -webkit-flex;
+      display: flex;
+      text-align: center;
+      justify-content: space-between;
+      padding: 20px 200px 30px 200px;
+  }
+  .url__section{
+    max-width: 300px;
+  }
+
+  .url__section--second{
+      margin-left: 220px;
+      margin-right: 220px;
+      max-width: 300px;
+  }
+  .css-button-landing__page-sharp--grey{
+    min-width: 200px;
+    height: 60px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border: 2px solid #495057;
+    background: #495057;
+    font-size: 20px;
+  }
+  .css-button-landing__page-sharp--grey:hover {
+    background: #fff;
+    color: #495057
+  }
+  .primary__footer{
+
+    padding: 20px 0 30px 0;
+
+    display: flex;
+
+    align-items: center;
+
+    text-align: center;
+
+    justify-content: center;
+  }

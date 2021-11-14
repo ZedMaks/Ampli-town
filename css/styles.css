@@ -126,19 +126,17 @@ body {
   
     margin-top: 10px;
 
-    padding: 10px;
+    padding: 0 90px 0 90px ;
   
     background-color: #FFC122;
   
     text-align: center;
     
-    border: 1px solid #FFC122;
+    border: 10px solid #FFC122;
  
     border-radius: 30px;
 
-    margin-left: 250px;
-
-    margin-right: 250px;
+    margin: 0 250px 5px 250px;
 
     max-width: 1920px;
 
@@ -149,6 +147,8 @@ body {
     display: flex;
 
     justify-content: space-between;
+
+    align-items: center;
   
   }
   
@@ -160,9 +160,11 @@ body {
   
     font-size: 20px;
 
-    margin: 0 auto;
+    display: -webkit-flex;
 
-    
+    display: flex;
+
+    border-bottom: 3px solid #495057;
   
   }
   .url__github
@@ -172,18 +174,42 @@ body {
     font-size: 20px;
 
     color: #000;
-
-    margin: 0 auto;
+  }
+  .css-button-page3-sharp--grey {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border: 2px solid #495057;
+    background: #495057;
+  }
+  .css-button-page3-sharp--grey:hover {
+    background: #fff;
+    color: #495057
   }
 
-  .url__thirdpage
-  {
-    text-decoration: none;
-
-    font-size: 20px;
-
-    color: #000;
-
-    margin: 0 auto;
+  .css-button-my_github-sharp--grey{
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border: 2px solid #495057;
+    background: #495057;
+  }
+  .css-button-my_github-sharp--grey:hover {
+    background: #fff;
+    color: #495057
   }
   /* end footer styling */
